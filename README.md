@@ -1,12 +1,53 @@
-# React + Vite
+# 🎲 Dice Game - React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fun and interactive Dice Game built using **React** and **Vite**. This project is part of my web development portfolio and showcases state management, conditional rendering, and basic game logic using React.
 
-Currently, two official plugins are available:
+## 🚀 How to Play
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Select a number from 1 to 6.
+2. Click on the dice to roll it.
+3. If the rolled number matches your selected number:
+   - You gain points equal to that number.
+4. If it doesn't match:
+   - You lose 2 points.
+5. Use the **Reset Score** button to start over.
+6. Click **Show Rules** to see the instructions again.
 
-## Expanding the ESLint configuration
+> ⚠️ If you click the dice without selecting a number, a red warning message will appear:  
+> **"You have not selected any number."**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+
+## 🛠️ Built With
+
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- CSS
+
+---
+
+## 🧩 Features
+
+- Random dice roll simulation with images
+- Score tracking based on correct or incorrect guesses
+- Warning for missing number selection
+- Reset functionality
+- Clear and simple game rules display
+
+---
+
+## 📦 Getting Started
+
+To run this project locally:
+
+```bash
+# Clone the repo
+git clone https://github.com/BuildWithAbdullah/dice-game.git
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
